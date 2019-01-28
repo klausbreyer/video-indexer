@@ -3,7 +3,7 @@
 const _Promise = require('bluebird');
 const _Request = _Promise.promisifyAll(require('request'));
 const _uuid = require('uuid');
-const apiurl = "https://videobreakdown.azure-api.net/Breakdowns/Api/Partner";
+const apiurl = "https://api.videoindexer.ai";
 
 var Vindexer = function(apikey) { 
     this.apiKey = apikey;
